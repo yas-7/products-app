@@ -2,6 +2,16 @@
 
 Приложение на **React + TypeScript + Zustand** для работы со списком товаров.
 
+## Демо
+
+https://yas-7.github.io/products-app/
+
+Для входа используйте:
+```
+email: emily.johnson@x.dummyjson.com
+password: emilyspass
+```
+
 ## Что реализовано
 
 ### Авторизация
