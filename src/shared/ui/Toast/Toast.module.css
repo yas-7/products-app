@@ -1,0 +1,38 @@
+.root {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 1100;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 280px;
+    max-width: 420px;
+    border-radius: 14px;
+    padding: 14px 16px;
+    box-shadow: 0 18px 50px rgba(15, 23, 42, 0.16);
+    color: #ffffff;
+}
+
+.success {
+    background: #111827;
+}
+
+.error {
+    background: #b91c1c;
+}
+
+.info {
+    background: #2563eb;
+}
+
+.content {
+    flex: 1;
+}
+
+.close {
+    border: none;
+    background: transparent;
+    color: inherit;
+    font-size: 18px;
+}
