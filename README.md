@@ -7,6 +7,7 @@
 https://yas-7.github.io/products-app/
 
 Для входа используйте:
+
 ```
 email: emily.johnson@x.dummyjson.com
 password: emilyspass
@@ -47,6 +48,8 @@ password: emilyspass
 - **ESLint**
 - **Prettier**
 - **CSS Modules**
+- **Vitest**
+- **React Testing Library**
 
 ## API
 
@@ -66,3 +69,22 @@ password: emilyspass
 
 На текущем этапе новый товар не отправляется в API и отображается локально на клиенте.
 Это сделано специально, потому что по заданию сохранение через API пока не требуется.
+
+## Установка и запуск
+
+```
+npm install
+npm run dev
+```
+
+### Тесты
+
+В проекте используются:
+
+- Vitest
+- React Testing Library
+- jsdom
+
+### Запуск тестов
+
+`npm run test:run`
